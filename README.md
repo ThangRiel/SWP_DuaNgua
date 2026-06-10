@@ -42,3 +42,6 @@ Dự án này là phiên bản demo giao diện, chưa tích hợp backend hoặ
 ## Tác giả
 
 Dự án được phát triển trong khuôn khổ học tập tại SWP391.
+
+## Thành viên
+Khải
