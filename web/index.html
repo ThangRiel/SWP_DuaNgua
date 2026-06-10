@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TurfKing | Đặt Cược Đua Ngựa Hàng Đầu</title>
+    <meta name="description"
+        content="Trang web đặt cược đua ngựa trực tuyến uy tín. Xem lịch thi đấu, tỷ lệ cược và kết quả các giải đua ngựa hấp dẫn nhất.">
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@500;700;800&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <a href="#" class="logo outfit-font">
+            <i class="fa-solid fa-chess-knight"></i> TurfKing
+        </a>
+        <nav class="nav-links">
+            <a href="#" class="active">Trang Chủ</a>
+            <a href="#upcoming">Giải Đua Sắp Tới</a>
+            <a href="#results">Kết Quả Cuộc Đua</a>
+            <a href="#">Khuyến Mãi</a>
+            <a href="#">Hướng Dẫn</a>
+        </nav>
+        <div class="user-actions">
+            <div class="balance"><i class="fa-solid fa-wallet"></i> 0 đ</div>
+            <button class="btn-login">Đăng Nhập / Đăng Ký</button>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-bg-slider">
+            <div class="slide slide-1 active"></div>
+            <div class="slide slide-2"></div>
+            <div class="slide slide-3"></div>
+            <div class="slide slide-4"></div>
+            <div class="slide slide-5"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="outfit-font">Trải Nghiệm đua ngựa <br> Đỉnh Cao</h1>
+            <p>Tham gia nền tảng đặt cược thể thao uy tín nhất. Cập nhật tỷ lệ cược trực tiếp, theo dõi những chiến mã
+                hàng đầu và nhận thưởng lớn ngay hôm nay.</p>
+            <button class="btn-primary outfit-font">
+                <i class="fa-solid fa-bolt"></i> Cược Ngay Giải Hot
+            </button>
+        </div>
+    </section>
+
+    <div class="container">
+        <!-- UPCOMING RACES -->
+        <div class="section-header" id="upcoming">
+            <h2 class="section-title outfit-font">
+                <i class="fa-solid fa-flag-checkered"></i> Giải Đua Sắp Tới
+            </h2>
+            <a href="#" class="view-all">Xem tất cả lịch thi đấu <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <div class="race-list">
+            <!-- Race 1 -->
+            <div class="race-card">
+                <div class="race-time">
+                    <div class="time">14:30</div>
+                    <div class="date">Hôm nay</div>
+                </div>
+
+                <div class="race-info">
+                    <div class="info-group">
+                        <span class="info-label">Ngựa Chiến - Số báo danh</span>
+                        <div class="horse-name outfit-font">
+                            <span class="number">7</span> Lightning Bolt
+                        </div>
+                        <div class="jockey">
+                            <i class="fa-solid fa-user-ninja"></i> Kỵ sĩ: Trần Văn A
+                        </div>
+                    </div>
+
+                    <div class="info-group">
+                        <span class="info-label">Giải Đấu</span>
+                        <div class="horse-name horse-event">
+                            Cúp Mùa Xuân 2026
+                        </div>
+                        <div class="jockey jockey-small">
+                            <i class="fa-solid fa-location-dot"></i> Trường đua Phú Thọ
+                        </div>
+                    </div>
+                </div>
+
+                <div class="race-betting">
+                    <div class="odds-box">
+                        <div class="odds-val outfit-font">x2.45</div>
+                        <div class="bet-price">Vé cược: 50K</div>
+                    </div>
+                    <button class="btn-bet">Cược Ngay</button>
+                </div>
+            </div>
+
+            <!-- Race 2 -->
+            <div class="race-card">
+                <div class="race-time">
+                    <div class="time">16:00</div>
+                    <div class="date">Hôm nay</div>
+                </div>
+
+                <div class="race-info">
+                    <div class="info-group">
+                        <span class="info-label">Ngựa Chiến - Số báo danh</span>
+                        <div class="horse-name outfit-font">
+                            <span class="number">3</span> Shadow Runner
+                        </div>
+                        <div class="jockey">
+                            <i class="fa-solid fa-user-ninja"></i> Kỵ sĩ: Lê Hoàng
+                        </div>
+                    </div>
+
+                    <div class="info-group">
+                        <span class="info-label">Giải Đấu</span>
+                        <div class="horse-name horse-event">
+                            Derby Sài Gòn
+                        </div>
+                        <div class="jockey jockey-small">
+                            <i class="fa-solid fa-location-dot"></i> Trường đua Phú Thọ
+                        </div>
+                    </div>
+                </div>
+
+                <div class="race-betting">
+                    <div class="odds-box">
+                        <div class="odds-val outfit-font">x3.10</div>
+                        <div class="bet-price">Vé cược: 100K</div>
+                    </div>
+                    <button class="btn-bet">Cược Ngay</button>
+                </div>
+            </div>
+
+            <!-- Race 3 -->
+            <div class="race-card">
+                <div class="race-time">
+                    <div class="time">18:45</div>
+                    <div class="date">Ngày mai</div>
+                </div>
+
+                <div class="race-info">
+                    <div class="info-group">
+                        <span class="info-label">Ngựa Chiến - Số báo danh</span>
+                        <div class="horse-name outfit-font">
+                            <span class="number">9</span> Golden Arrow
+                        </div>
+                        <div class="jockey">
+                            <i class="fa-solid fa-user-ninja"></i> Kỵ sĩ: Nguyễn B
+                        </div>
+                    </div>
+
+                    <div class="info-group">
+                        <span class="info-label">Giải Đấu</span>
+                        <div class="horse-name horse-event">
+                            Giải Vô Địch Mở Rộng
+                        </div>
+                        <div class="jockey jockey-small">
+                            <i class="fa-solid fa-location-dot"></i> Trường đua Đại Nam
+                        </div>
+                    </div>
+                </div>
+
+                <div class="race-betting">
+                    <div class="odds-box">
+                        <div class="odds-val outfit-font">x1.85</div>
+                        <div class="bet-price">Vé cược: 200K</div>
+                    </div>
+                    <button class="btn-bet">Cược Ngay</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- PAST RESULTS -->
+        <div class="section-header" id="results">
+            <h2 class="section-title outfit-font">
+                <i class="fa-solid fa-trophy"></i> Kết Quả Cuộc Đua Gần Đây
+            </h2>
+            <a href="#" class="view-all">Xem bảng vàng <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <div class="results-grid">
+            <!-- Result Card 1 -->
+            <div class="result-card">
+                <div class="result-header">
+                    <div class="rh-title outfit-font">Cúp Hoàng Gia 2026</div>
+                    <div class="rh-time">Hôm qua, 15:00</div>
+                </div>
+
+                <div class="result-row winner">
+                    <div class="result-pos pos-1"><i class="fa-solid fa-crown"></i></div>
+                    <div class="result-horse">
+                        Thunder Storm
+                        <span class="result-jockey">Kỵ sĩ: Minh Tuấn</span>
+                    </div>
+                    <div class="result-odds outfit-font">x2.10</div>
+                </div>
+
+                <div class="result-row">
+                    <div class="result-pos pos-2">2</div>
+                    <div class="result-horse">
+                        Black Beauty
+                        <span class="result-jockey">Kỵ sĩ: Hoàng Long</span>
+                    </div>
+                    <div class="result-odds outfit-font secondary">x4.50</div>
+                </div>
+
+                <div class="result-row">
+                    <div class="result-pos pos-3">3</div>
+                    <div class="result-horse">
+                        Wind Chaser
+                        <span class="result-jockey">Kỵ sĩ: Đức Anh</span>
+                    </div>
+                    <div class="result-odds outfit-font secondary">x6.00</div>
+                </div>
+            </div>
+
+            <!-- Result Card 2 -->
+            <div class="result-card">
+                <div class="result-header">
+                    <div class="rh-title outfit-font">Giải Mở Rộng Bán Kết 1</div>
+                    <div class="rh-time">17/05/2026</div>
+                </div>
+
+                <div class="result-row winner">
+                    <div class="result-pos pos-1"><i class="fa-solid fa-crown"></i></div>
+                    <div class="result-horse">
+                        Red Phantom
+                        <span class="result-jockey">Kỵ sĩ: Bảo Nam</span>
+                    </div>
+                    <div class="result-odds outfit-font">x3.80</div>
+                </div>
+
+                <div class="result-row">
+                    <div class="result-pos pos-2">2</div>
+                    <div class="result-horse">
+                        Silver Star
+                        <span class="result-jockey">Kỵ sĩ: Tuấn Kiệt</span>
+                    </div>
+                    <div class="result-odds outfit-font secondary">x2.20</div>
+                </div>
+
+                <div class="result-row">
+                    <div class="result-pos pos-3">3</div>
+                    <div class="result-horse">
+                        Eagle Eye
+                        <span class="result-jockey">Kỵ sĩ: Quang Hải</span>
+                    </div>
+                    <div class="result-odds outfit-font secondary">x8.50</div>
+                </div>
+            </div>
+
+            <!-- Result Card 3 -->
+            <div class="result-card">
+                <div class="result-header">
+                    <div class="rh-title outfit-font">Sài Gòn Sprint Cup</div>
+                    <div class="rh-time">15/05/2026</div>
+                </div>
+
+                <div class="result-row winner">
+                    <div class="result-pos pos-1"><i class="fa-solid fa-crown"></i></div>
+                    <div class="result-horse">
+                        Ocean Wave
+                        <span class="result-jockey">Kỵ sĩ: Thanh Tùng</span>
+                    </div>
+                    <div class="result-odds outfit-font">x5.00</div>
+                </div>
+
+                <div class="result-row">
+                    <div class="result-pos pos-2">2</div>
+                    <div class="result-horse">
+                        Desert King
+                        <span class="result-jockey">Kỵ sĩ: Quốc Bảo</span>
+                    </div>
+                    <div class="result-odds outfit-font secondary">x1.90</div>
+                </div>
+
+                <div class="result-row">
+                    <div class="result-pos pos-3">3</div>
+                    <div class="result-horse">
+                        Fireball
+                        <span class="result-jockey">Kỵ sĩ: Đăng Khoa</span>
+                    </div>
+                    <div class="result-odds outfit-font secondary">x12.00</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-info">
+                <span class="footer-logo outfit-font"><i class="fa-solid fa-chess-knight"></i> TurfKing</span>
+                <p class="footer-desc">Nền tảng cung cấp thông tin và dịch vụ đặt cược đua ngựa trực tuyến uy tín hàng
+                    đầu. Cam kết minh bạch, an toàn và hỗ trợ khách hàng 24/7.</p>
+            </div>
+            <div class="footer-links">
+                <h4 class="outfit-font">Khám Phá</h4>
+                <ul>
+                    <li><a href="#">Lịch Thi Đấu</a></li>
+                    <li><a href="#">Kết Quả Cuộc Đua</a></li>
+                    <li><a href="#">Bảng Xếp Hạng Kỵ Sĩ</a></li>
+                    <li><a href="#">Tin Tức & Sự Kiện</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4 class="outfit-font">Hỗ Trợ</h4>
+                <ul>
+                    <li><a href="#">Luật Chơi & Đặt Cược</a></li>
+                    <li><a href="#">Chính Sách Bảo Mật</a></li>
+                    <li><a href="#">Câu Hỏi Thường Gặp</a></li>
+                    <li><a href="#">Liên Hệ: 1900 xxxx</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2026 TurfKing. Tất cả các quyền được bảo lưu. Dành cho người dùng trên 18 tuổi.
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Slider background hero
+            const slides = document.querySelectorAll('.hero-bg-slider .slide');
+            let currentSlide = 0;
+
+            setInterval(() => {
+                slides[currentSlide].classList.remove('active');
+                currentSlide = (currentSlide + 1) % slides.length;
+                slides[currentSlide].classList.add('active');
+            }, 5000); // 5 seconds
+
+            // Navbar highlight logic (Click & Scroll)
+            const navLinks = document.querySelectorAll('.nav-links a');
+            const sectionHeaders = document.querySelectorAll('.section-header[id]');
+
+            // Highlight khi click
+            navLinks.forEach(link => {
+                link.addEventListener('click', function () {
+                    navLinks.forEach(nav => nav.classList.remove('active'));
+                    this.classList.add('active');
+                });
+            });
+
+            // Highlight khi cuộn trang (Scrollspy)
+            window.addEventListener('scroll', () => {
+                let currentId = '';
+                const scrollPosition = window.scrollY + 250; // Khoảng cách bù trừ cho fixed header
+
+                sectionHeaders.forEach(section => {
+                    if (section.offsetTop <= scrollPosition) {
+                        currentId = section.getAttribute('id');
+                    }
+                });
+
+                // Nếu cuộn lên gần đầu trang
+                if (window.scrollY < 200) {
+                    currentId = '';
+                }
+
+                // Cập nhật class active
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                    const href = link.getAttribute('href');
+
+                    if (currentId === '' && href === '#') {
+                        link.classList.add('active'); // Trang Chủ
+                    } else if (currentId && href === `#${currentId}`) {
+                        link.classList.add('active');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
